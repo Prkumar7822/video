@@ -39,7 +39,7 @@ const VideoTrimmerUI = () => {
     const [isVideoReady, setIsVideoReady] = useState(false);
     const [isAudioReady, setIsAudioReady] = useState(false);
     const [isPlaybackReady, setIsPlaybackReady] = useState(false);
-    const [playbackSpeed, setPlaybackSpeed] = useState<number>(1); // Add this state
+    const [playbackSpeed, setPlaybackSpeed] = useState<number>(1); 
 
     const uploadVideo = () => {
         launchImageLibrary({ mediaType: "video" }, (response) => {
